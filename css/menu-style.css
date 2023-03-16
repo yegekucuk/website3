@@ -1,0 +1,36 @@
+ul.menu {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+ul.menu li a {
+    font-size: 20px;
+    text-decoration-line: none;
+    color: black;
+}
+
+ul.menu li a div{
+    display: flex;
+    flex-wrap: wrap;
+    height: 40px;
+    align-content: center;
+    padding-left: 10px;
+}
+
+ul.menu li a div.active-div{
+    background-color: black;
+    color: white;
+}
+
+ul.menu li:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+ul.menu li:active {
+    background-color: black;
+}
+
+ul.menu li:active a{
+    color: white;
+}

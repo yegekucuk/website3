@@ -1,0 +1,55 @@
+div#contents {
+    width: 998px;
+    height: auto;
+    border: 1px solid red;
+    margin: auto;
+    margin-top: 15px;
+}
+
+header.main-header {
+    width: 898px;
+    height: auto;
+    border: 1px solid red;
+    margin: auto;
+    margin-top: 25px;
+    text-align: center;
+}
+
+div#body {
+    width: 898px;
+    height: 100%;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 25px;
+    background-color: gainsboro;
+}
+
+section.main-section {
+    width: 700px;
+    height: auto;
+    float: left;
+    background-color: rgb(215, 228, 231);
+    overflow: hidden;
+    border-right: 1px solid black ;
+}
+
+aside.main-aside {
+    width: 197.2px;
+    text-align: center;
+    float: right;
+    background-color: gainsboro;
+}
+
+footer.main-footer {
+    width: 898px;
+    height: auto;
+    border: 1px solid red;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: right;
+}
+
+p#footer-text {
+    margin-right: 15px;
+}
